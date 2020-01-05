@@ -11,7 +11,7 @@ Declare a function called laugh() that returns "hahahahahahahahahaha!". Print th
 ```
 function laugh(){
     var message = "hahahahahahahahahaha!";
-    /* the retuen value will hold the message to be printed out in console.log */
+    /* the retuen value will hold the message to be printed out in console.log. It will stop executing the function once it sees the return command. */
     return message;
 
 }
