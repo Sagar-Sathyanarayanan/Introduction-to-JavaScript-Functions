@@ -12,7 +12,8 @@ Print the value returned from the laugh() function to the console.
 ```
 function laugh(){
     var message = "hahahahahahahahahaha!";
-    /* the retuen value will hold the message to be printed out in console.log. It will stop executing the function once it sees the return command. */
+    /* the retuen value will hold the message to be printed out in console.log. 
+    It will stop executing the function once it sees the return command. */
     return message;
 
 }
