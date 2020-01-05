@@ -43,3 +43,17 @@ function laugh(num){
 }
 console.log(laugh(3));
 ```
+ ## Hoisting: 
+ 
+ ```
+ Hoisting is a very quirky topic in functions. In the example below you can see that: 
+ 
+ sayHi("Sagar");
+
+function sayHi(name) {
+  console.log(greeting + " " + name);
+  var greeting = "Hello";
+}
+
+Here even though the function declaration is after the final comment. The output of this code will be ---> undefied Sagar. This is hoisting. 
+The undefied part of this code is because in hoisting, variable assignments are not hoisted. Hence the code will not recognise the declaration of variable greeting. 
