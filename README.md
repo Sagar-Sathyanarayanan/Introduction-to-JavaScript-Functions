@@ -4,7 +4,8 @@ Questions on Functions
 
 ## Question 1:  Laugh it off - 1
 ```
-Declare a function called laugh() that returns "hahahahahahahahahaha!". Print the value returned from the laugh() function to the console.
+Declare a function called laugh() that returns "hahahahahahahahahaha!".
+Print the value returned from the laugh() function to the console.
 ```
 ## Answer 1: 
 
@@ -55,6 +56,8 @@ function sayHi(name) {
   var greeting = "Hello";
 }
 
-Here even though the function declaration is after the final comment. The output of this code will be ---> undefied Sagar. This is hoisting. 
-The undefied part of this code is because in hoisting, variable assignments are not hoisted. Hence the code will not recognise the declaration of variable greeting. 
+Here even though the function declaration is after the final comment. 
+The output of this code will be ---> undefied Sagar. This is hoisting. 
+The undefied part of this code is because in hoisting, variable assignments are not hoisted.
+Hence the code will not recognise the declaration of variable greeting. 
 ```
