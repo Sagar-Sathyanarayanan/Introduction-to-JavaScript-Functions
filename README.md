@@ -57,3 +57,4 @@ function sayHi(name) {
 
 Here even though the function declaration is after the final comment. The output of this code will be ---> undefied Sagar. This is hoisting. 
 The undefied part of this code is because in hoisting, variable assignments are not hoisted. Hence the code will not recognise the declaration of variable greeting. 
+```
